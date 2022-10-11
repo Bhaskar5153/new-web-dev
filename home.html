@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vader online store</title>
+    <link rel="stylesheet" href="static/design.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">Vader Store</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">All Products</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Actions
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <li><a class="dropdown-item" href="#">Action1</a></li>
+
+                            <li><a class="dropdown-item" href="#">Action2</a></li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li><a class="dropdown-item" href="#">Action3</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Your Orders</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+                    <button class="btn-search" type="submit">Search</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div class="container-fuild">
+
+        <div class="sub-heading m-2 p-3">
+            <h3>Favorites</h3>
+        </div>
+
+        <div class="row">
+
+            <div class="col">
+                <img src="images/teddy1.png" alt="" class="img-marketing">
+
+
+                <form class="teddy-form">
+
+                    <label for="product-size">Size: </label>
+
+                    <select name="product-names" id="teddy-size-id">
+
+                        <option value="S">Small</option>
+                        <option value="M">Medium</option>
+                        <option value="L">Large</option>
+                        <option value="XL">Extra Large</option>
+
+                    </select>
+
+                    <label for="product color">Qty: </label>
+
+                    <select name="product-names" id="teddy-id">
+
+                        <option value="S">Red</option>
+                        <option value="M">Blue</option>
+                        <option value="L">Yellow</option>
+                        <option value="XL">Pink</option>
+                        <option value="XL">Gray</option>
+
+                    </select>
+
+
+                    <button class="btn w-100" onclick="orderItem()">place order</button>
+
+                </form>
+            </div>
+
+
+            <div class="col">
+                <img src="images/zara-fav.png" alt="" class="img-marketing">
+
+                <form class="">
+
+                    <label for="product-size">Size: </label>
+
+                    <select name="product-names" id="teddy-size-id">
+
+                        <option value="S">Small</option>
+                        <option value="M">Medium</option>
+                        <option value="L">Large</option>
+                        <option value="XL">Extra Large</option>
+
+                    </select>
+
+                    <label for="product color">Qty: </label>
+
+                    <select name="product-names" id="teddy-id">
+
+                        <option value="S">Red</option>
+                        <option value="M">Blue</option>
+                        <option value="L">Yellow</option>
+                        <option value="XL">Pink</option>
+                        <option value="XL">Gray</option>
+
+                    </select>
+
+                    <button class="btn w-100">place order</button>
+
+                </form>
+
+            </div>
+
+
+            <div class="col">
+                <img src="images/bosch-tool.png" alt="" class="img-marketing">
+                <form class="">
+
+
+                    <label for="product-size">Size: </label>
+
+                    <select name="product-names" id="teddy-size-id">
+
+                        <option value="S">Small</option>
+                        <option value="M">Medium</option>
+                        <option value="L">Large</option>
+                        <option value="XL">Extra Large</option>
+
+                    </select>
+
+                    <label for="product color">Qty: </label>
+
+                    <select name="product-names" id="teddy-id">
+
+                        <option value="S">Red</option>
+                        <option value="M">Blue</option>
+                        <option value="L">Yellow</option>
+                        <option value="XL">Pink</option>
+                        <option value="XL">Gray</option>
+
+                    </select>
+                    <button class="btn w-100">place order</button>
+
+                </form>
+            </div>
+
+
+            <div class="col">
+                <img src="images/fancy-footwear.png" alt="" class="img-marketing">
+                <form class="">
+
+
+                    <label for="product-size">Size: </label>
+
+                    <select name="product-names" id="teddy-size-id">
+
+                        <option value="S">Small</option>
+                        <option value="M">Medium</option>
+                        <option value="L">Large</option>
+                        <option value="XL">Extra Large</option>
+
+                    </select>
+
+                    <label for="product color">Qty: </label>
+
+                    <select name="product-names" id="teddy-id">
+
+                        <option value="S">Red</option>
+                        <option value="M">Blue</option>
+                        <option value="L">Yellow</option>
+                        <option value="XL">Pink</option>
+                        <option value="XL">Gray</option>
+
+                    </select>
+
+
+                    <button class="btn w-100">place order</button>
+
+                </form>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col">
+
+                <img src="images/fashion-cloth.png" alt="" class="img-marketing">
+                <form class="">
+
+
+                    <label for="product-size">Size: </label>
+
+                    <select name="product-names" id="teddy-size-id">
+
+                        <option value="S">Small</option>
+                        <option value="M">Medium</option>
+                        <option value="L">Large</option>
+                        <option value="XL">Extra Large</option>
+
+                    </select>
+
+                    <label for="product color">Qty: </label>
+
+                    <select name="product-names" id="teddy-id">
+
+                        <option value="S">Red</option>
+                        <option value="M">Blue</option>
+                        <option value="L">Yellow</option>
+                        <option value="XL">Pink</option>
+                        <option value="XL">Gray</option>
+
+                    </select>
+
+                    <button class="btn w-100">place order</button>
+                </form>
+
+            </div>
+
+            <div class="col">
+
+                <img src="images/laptop.png" alt="" class="img-marketing">
+                <form class="">
+
+                    <label for="product-size">Size: </label>
+
+                    <select name="product-names" id="teddy-size-id">
+
+                        <option value="S">Small</option>
+                        <option value="M">Medium</option>
+                        <option value="L">Large</option>
+                        <option value="XL">Extra Large</option>
+
+                    </select>
+
+                    <label for="product color">Qty: </label>
+
+                    <select name="product-names" id="teddy-id">
+
+                        <option value="S">Red</option>
+                        <option value="M">Blue</option>
+                        <option value="L">Yellow</option>
+                        <option value="XL">Pink</option>
+                        <option value="XL">Gray</option>
+
+                    </select>
+
+                    <button class="btn w-100">place order</button>
+                </form>
+
+            </div>
+
+
+            <div class="col">
+
+                <img src="images/teddy7.png" alt="" class="img-marketing">
+                <form class="">
+
+                    <label for="product-size">Size: </label>
+
+                    <select name="product-names" id="teddy-size-id">
+
+                        <option value="S">Small</option>
+                        <option value="M">Medium</option>
+                        <option value="L">Large</option>
+                        <option value="XL">Extra Large</option>
+
+                    </select>
+
+                    <label for="product color">Qty: </label>
+
+                    <select name="product-names" id="teddy-id">
+
+                        <option value="S">Red</option>
+                        <option value="M">Blue</option>
+                        <option value="L">Yellow</option>
+                        <option value="XL">Pink</option>
+                        <option value="XL">Gray</option>
+
+                    </select>
+
+                    <button class="btn w-100">place order</button>
+
+                </form>
+
+            </div>
+
+            <div class="col">
+
+                <img src="images/teddy8.png" alt="" class="img-marketing">
+                <form class="">
+
+
+                    <label for="product-size">Size: </label>
+
+                    <select name="product-names" id="teddy-size-id">
+
+                        <option value="S">Small</option>
+                        <option value="M">Medium</option>
+                        <option value="L">Large</option>
+                        <option value="XL">Extra Large</option>
+
+                    </select>
+
+                    <label for="product color">Qty: </label>
+
+                    <select name="product-names" id="teddy-id">
+
+                        <option value="S">Red</option>
+                        <option value="M">Blue</option>
+                        <option value="L">Yellow</option>
+                        <option value="XL">Pink</option>
+                        <option value="XL">Gray</option>
+
+                    </select>
+
+                    <button class="btn w-100">place order</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <div class="title-container" id="slider">
+
+        <div class="row-heading">
+
+            <div class="col-heading">
+
+                <h1 class="heading">Vader Store</h1>
+
+            </div>
+
+            <div class="col-heading">
+
+                <p class="vader-para">
+                    The Vader store has established in 2000, and has been great competetor in retail and e
+                    commerce.
+                    It has many different types of products and online platforms where selling and buying easy
+                    for customers.
+                    after leading the industry for more than 20 years, the vader store has announced coupons for
+                    all the customers.
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="sub-heading m-2 p-3">
+
+        <h3>Vader's partners</h3>
+
+    </div>
+
+
+    <div class="partner-container">
+
+        <div class="row">
+            <div class="col">
+                <img src="images/amazon.png" alt="" class="img-marketing">
+            </div>
+
+            <div class="col">
+                <img src="images/lazy.png" alt="" class="img-marketing">
+            </div>
+
+            <div class="col">
+                <img src="images/lp.png" alt="" class="img-marketing">
+            </div>
+
+            <div class="col">
+                <img src="images/sp.png" alt="" class="img-marketing">
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="sub-heading m-2 p-3">
+        <h3>Want to become a seller?</h3>
+        <p>Please fill the form below</p>
+    </div>
+
+
+    <div class="form-container">
+        <form action="" method="post" class="form-control">
+
+
+            <div class="row-4">
+
+                <div class="col-4 m-2 p-3">
+
+                    <label for="customer-name" class="customer-name-cls">Customer Name</label>
+
+                    <input type="text" class="input-box">
+
+                </div>
+
+                <div class="col-4 m-2 p-3">
+
+                    <label for="product-name" class="product-name-cls">Product Name</label>
+
+                    <input type="text" class="input-box">
+
+                </div>
+
+
+                <div class="col-4 m-2 p-3">
+
+                    <label for="contact-num" class="contact-num-cls">Contact Number</label>
+
+                    <input type="text" class="input-box">
+
+                </div>
+
+                <div class="col-4 m-2 p-3">
+
+                    <!-- <label for="customer-name">Upload Images</label> -->
+
+                    <input type="file" name="product-img" id="product-img" class="input-box-file">
+                </div>
+
+                <div class="col-4 m-2 p-3">
+
+                    <label for="price" class="price-cls">Price</label>
+
+                    <input type="text" class="input-box">
+                </div>
+
+
+                <div class="col-4 m-2 p-3">
+
+                    <label for="description" class="description-cls">Description</label>
+
+                    <textarea name="short-description" id="sd" cols="45" rows="10"></textarea>
+                </div>
+
+
+                <input type="submit" value="Submit" class="btn-2">
+
+
+
+            </div>
+
+
+        </form>
+    </div>
+
+    <div class="sub-heading m-2 p-3">
+        <h3>Footwear</h3>
+    </div>
+
+
+    <div class="footwear-container">
+
+        <div class="row">
+
+            <div class="col">
+                <img src="images/footwear.png" alt="" class="footwear-img">
+            </div>
+
+            <div class="col">
+                <h3>Vader Store footwear</h3>
+                <p class="footwear-para">
+                    Vader store has brought customers different types of footwear.
+                    Walk free and run faster with vader footwear.
+                </p>
+
+                <input type="submit" value="See more" class="btn-footwear">
+
+
+
+                <div class="row">
+                    <div class="col">
+                        <img src="images/w-footwear.png" alt="" class="footwear1">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/f-footwear.png" alt="" class="footwear2">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/j-featwear.png" alt="" class="footwear3">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/k-footwear.png" alt="" class="footwear4">
+                    </div>
+
+
+                </div>
+
+
+
+
+                <div class="row">
+                    <div class="col">
+                        <img src="images/footwear4.png" alt="" class="footwear5">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/footwear5.png" alt="" class="footwear6">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/footwear6.png" alt="" class="footwear7">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/footwear7.png" alt="" class="footwear8">
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="sub-heading m-2 p-3">
+        <h3>Electronics</h3>
+    </div>
+
+
+    <div class="electric-container">
+
+        <div class="row">
+
+            <div class="col">
+                <img src="images/electronics.png" alt="" class="electronics-img">
+            </div>
+
+            <div class="col">
+                <h3>Electronic Items</h3>
+                <p class="electronics-para">
+                    Vader store has various types of electronic items stored.
+                    it has price range from 10 to 10000 including GST and taxes.
+                    1 year guarantee has been provided on each item that is purchased on or before 10th OCT.
+
+                </p>
+                <input type="submit" value="See more" class="btn-electronics">
+
+
+
+
+
+                <div class="row">
+                    <div class="col">
+                        <img src="images/wm1.png" alt="" class="e1">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/wm2.png" alt="" class="e2">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/fridge1.png" alt="" class="e3">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/headphones.png" alt="" class="e4">
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col">
+                        <img src="images/pendrive.png" alt="" class="e5">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/iphone1.png" alt="" class="e6">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/iphone2.png" alt="" class="e7">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/laptop1.png" alt="" class="e8">
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="sub-heading m-2 p-3">
+        <h3 class="toys">Toys</h3>
+    </div>
+
+
+    <div class="electric-container">
+
+        <div class="row">
+
+            <div class="col">
+                <img src="images/toys.png" alt="" class="electronics-img">
+            </div>
+
+            <div class="col">
+                <h3>Toys for Kids</h3>
+                <p class="toys-para">
+                    Vader store has various types of toys for kids.
+                    it has price range from 10 to 10000 including GST and taxes.
+                    1 year guarantee has been provided on each item that is purchased on or before 10th OCT.
+
+                </p>
+
+                <input type="submit" value="See more" class="btn-toy">
+
+                <div class="row">
+                    <div class="col">
+                        <img src="images/jeep.png" alt="" class="jeep">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/red-car.png" alt="" class="red-car">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/orange-car.png" alt="" class="orange-car">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/bike1.png" alt="" class="bike1">
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col">
+                        <img src="images/bike2.png" alt="" class="bike2">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/bike3.png" alt="" class="bike3">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/bike4.png" alt="" class="bike4">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/bike5.png" alt="" class="bike5">
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="sub-heading m-2 p-3">
+        <h3>Tools and hardware</h3>
+    </div>
+
+
+    <div class="electric-container">
+
+        <div class="row">
+
+            <div class="col">
+                <img src="images/tools.png" alt="" class="electronics-img">
+            </div>
+
+            <div class="col">
+                <h3>Hardware tools</h3>
+                <p class="hardware-para">
+                    Vader store has various types of hardware tools for repair, maintain and fix issues with hardware.
+                    it has price range from 10 to 10000 including GST and taxes.
+                    1 year guarantee has been provided on each item that is purchased on or before 10th OCT.
+
+                </p>
+                <input type="submit" value="See more" class="btn-hardware">
+
+
+
+                <div class="row">
+                    <div class="col">
+                        <img src="images/driller.png" alt="" class="hard1">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/driller2.png" alt="" class="hard2">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/driller3.png" alt="" class="hard3">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/driler4.png" alt="" class="hard4">
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col">
+                        <img src="images/driller5.png" alt="" class="hard5">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/driller6.png" alt="" class="hard6">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/driller7.png" alt="" class="hard7">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/driller8.png" alt="" class="hard8">
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="sub-heading m-2 p-3">
+        <h3>Cosmotics</h3>
+    </div>
+
+
+    <div class="electric-container">
+
+        <div class="row">
+
+            <div class="col">
+                <img src="images/cosmo.png" alt="" class="electronics-img">
+            </div>
+
+            <div class="col">
+                <h3>Beautiful cosmotics and collections</h3>
+                <p class="cosmotics-para">
+                    Vader store has various types of cosmotics that are attractive and Beautiful.
+                    it has price range from 10 to 10000 including GST and taxes.
+                    1 year guarantee has been provided on each item that is purchased on or before 10th OCT.
+
+                </p>
+                <input type="submit" value="See more" class="btn-cosmo">
+
+
+
+                <div class="row">
+                    <div class="col">
+                        <img src="images/jewel.png" alt="" class="cosmo1">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/jewel1.png" alt="" class="cosmo2">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/kit1.png" alt="" class="cosmo3">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/kit2.png" alt="" class="cosmo4">
+                    </div>
+
+                </div>
+
+
+
+                <div class="row">
+
+                    <div class="col">
+                        <img src="images/cosmo10.png" alt="" class="cosmo5">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/kit5.png" alt="" class="cosmo6">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/jewel3.png" alt="" class="cosmo7">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/kit7.png" alt="" class="cosmo8">
+                    </div>
+
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="sub-heading m-2 p-3">
+        <h3>Fashion</h3>
+    </div>
+
+
+    <div class="electric-container">
+
+        <div class="row">
+
+            <div class="col">
+                <img src="images/clothes.png" alt="" class="electronics-img">
+            </div>
+
+            <div class="col">
+                <h3>Clothes for all</h3>
+                <p class="clothes-para">
+                    Vader store has various types of clothes and meterials.
+                    it has price range from 10 to 10000 including GST and taxes.
+                    50% discount has been provided on each item that is purchased on or before 10th OCT.
+
+                </p>
+                <input type="submit" value="See more" class="btn-fash">
+
+
+
+                <div class="row">
+                    <div class="col">
+                        <img src="images/dress1.png" alt="" class="dress1">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/dress2.png" alt="" class="dress2">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/dress3.png" alt="" class="dress3">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/dress4.png" alt="" class="dress4">
+                    </div>
+
+
+                </div>
+
+
+
+
+                <div class="row">
+                    <div class="col">
+                        <img src="images/dress5.png" alt="" class="dress5">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/dress6.png" alt="" class="dress6">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/dress7.png" alt="" class="dress7">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/dress8.png" alt="" class="dress8">
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="sub-heading m-2 p-3">
+
+        <h3 class="brand-cls" id="brand-id">Brands</h3>
+
+    </div>
+
+    <div class="partner-container">
+
+        <div class="row">
+            <div class="col">
+                <img src="images/bosch.png" alt="" class="img-marketing">
+            </div>
+
+            <div class="col">
+                <img src="images/lp.png" alt="" class="img-marketing">
+            </div>
+
+            <div class="col">
+                <img src="images/levis.png" alt="" class="img-marketing">
+            </div>
+
+            <div class="col">
+                <img src="images/zara.png" alt="" class="img-marketing">
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="slider-container">
+
+        <h3 class="about-vader">Vader's history</h3>
+
+        <p class="para">
+            Wingify was founded in 2010 by Paras Chopra and Sparsh Gupta, and has its office in New Delhi. The company
+            is bootstrapped and as of 2019, has an annual revenue of $20 million. The success of its products has won
+            Wingify the Bootstrap Champ category in the Economic Times Startup Awards 2017 in India. Forbes featured
+            Wingify's founder, Paras Chopra, in the 30 under 30 list of influential people in India in 2014.
+            In February 2018, Wingify announced that Sparsh Gupta, the company's chief operating officer had been
+            appointed as their new CEO, with Paras Chopra taking the position of chairman.
+            <a href="" class="slide-link">More</a>
+        </p>
+
+
+    </div>
+
+
+    <div class="para-container">
+
+
+        <p class="para2">
+
+
+            Vader is a private limited company incorporated under the provisions of Companies Act,
+            2013 and is engaged amongst others in the business of providing technology enabled settlement services,
+            settlement processing services together with certain collection services to different kinds of business
+            entities, and marketing/distribution of co-branded prepaid payment instruments.
+
+        </p>
+
+    </div>
+
+    <div class="footer">
+
+
+        <div class="footer-heading">
+            <h1 class="footer-head">India's online store, Vader.</h1>
+            <p>Easy to buy and sell any product from anywhere</p>
+        </div>
+    
+    
+        <div class="container-flex">
+    
+    
+            <div class="resources">
+                <h4>Resources</h4>
+    
+                <p class="rp">
+                    Resounces 1
+                    <br>
+                    Resounces 2
+                    <br>
+                    Resounces 3
+                    <br>
+                    Resounces 4
+                    <br>
+                </p>
+                
+    
+            </div>
+    
+    
+            <div class="revenue">
+                <h4>Revenue</h4>
+                <p class="rev-p">
+                    1 year $20m
+                    <br>
+                    2 year $40m
+                    <br>
+                    3 year $100m
+                    <br>
+                    4 year $200m
+                    <br>
+                </p>
+            </div>
+    
+            <div class="rewards">
+                <h4>Rewards</h4>
+                <p class="rew-p">
+                    Rewards 1
+                    <br>
+                    Rewards 2
+                    <br>
+                    Rewards 3
+                    <br>
+                    Rewards 4
+                    <br>
+                </p>
+            </div>
+    
+            <div class="helpdesk">
+                <h4>Helpdesk</h4>
+    
+                <p class="help-p">
+                    +12345567
+                    <br>
+                    +919876543210
+                    <br>
+                    040182929344
+                    <br>
+    
+                </p>
+            </div>
+    
+    
+        </div>
+
+
+
+    </div>
+
+    <script src="jquery-3.6.1.js"></script>
+
+    <script src="js/index.js"></script>
+    <!-- <script src="js/jq.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
