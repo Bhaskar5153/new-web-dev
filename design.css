@@ -1,0 +1,657 @@
+.navbar {
+    width: 100%;
+    height: 10vh;
+    box-shadow: 2px 1px 1px;
+}
+
+.img-marketing {
+    width: 250px;
+    height: 250px;
+}
+
+
+.btn {
+    margin-bottom: 20px;
+    border: none;
+    background-color: #eee;
+    box-shadow: 0px 1px 0px;
+    text-align: center;
+
+}
+
+.row {
+   
+    border-top-style:ridge;
+    border-bottom-style: ridge; 
+    border-left-style: ridge;
+    /* border-right-style: ridge; */
+}
+
+.col {
+
+    /* border-top-style: solid; */
+    /* border-bottom-style: ridge; */
+    /* border-left-style: ridge; */
+    border-right-style: ridge; 
+    
+}
+
+
+.title-container {
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    background: whitesmoke;
+    box-shadow: 2px 0px 1px;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+
+.heading {
+    margin-top: 40px;
+    padding-top: 40px;
+    
+}
+
+.btn-search {
+    background-color: #eee;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 1px 0px;
+}
+
+.vader-para {
+    margin-top: 20px;
+    padding-top: 20px;
+
+}
+
+
+.col-4 {
+    text-align: justify;
+}
+
+/* .customer-name-cls {
+    padding: 10px 10px 10px 0;
+    display: inline-block;
+
+}
+
+
+.product-name-cls {
+    padding: 10px 10px 0px;
+    display: inline-block;
+} */
+
+.input-box {
+    justify-content:center;
+    width: 400px;
+    block-size: 50px;
+    border-width: 0.5px;
+    box-shadow: 0px 1px 0px;
+
+
+}
+
+textarea {
+    border-width: 0.5px;
+    box-shadow: 0px 1px 0px;
+}
+
+
+
+.teddy-form {
+
+    box-shadow: 1px 0.5px 1px;
+}
+
+.btn-2 {
+    width: 200px;
+    height: 50px;
+    background-color: #eee;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 1px 0px;
+    margin-left: 25px;
+    
+}
+
+
+.footwear-img {
+
+    width: 500px;
+    height: 500px;
+}
+
+.electronics-img {
+    width: 500px;
+    height: 500px;
+}
+
+.footwear-container {
+    margin-top: 20px;
+}
+
+
+.footwear-para {
+    padding: 40px 40px 40px 0px;
+
+}
+
+.electronics-para {
+    padding: 40px 40px 40px 0px;
+}
+
+.toys-para {
+    padding: 40px 40px 40px 0px;
+}
+
+.hardware-para {
+    padding: 40px 40px 40px 0px;
+}
+
+.cosmotics-para {
+    padding: 40px 40px 40px 0px;
+}
+
+.clothes-para {
+    padding: 40px 40px 40px 0px;
+}
+
+h3 {
+
+    padding: 10px 10px 10px 0px;
+}
+
+
+
+
+.toy1 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.toy2 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.toy3 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.toy4 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.btn-footwear {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #eee;
+    border-radius: 6px;
+    box-shadow: 0px 2px 0px;
+
+}
+
+
+
+.btn-electronics {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #eee;
+    border-radius: 6px;
+    box-shadow: 0px 2px 0px;
+
+}
+
+
+
+
+.btn-toy {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #eee;
+    border-radius: 6px;
+    box-shadow: 0px 2px 0px;
+
+}
+
+
+
+
+.btn-hardware {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #eee;
+    border-radius: 6px;
+    box-shadow: 0px 2px 0px;
+
+}
+
+
+
+
+.btn-cosmo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #eee;
+    border-radius: 6px;
+    box-shadow: 0px 2px 0px;
+
+}
+
+
+.btn-fash {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #eee;
+    border-radius: 6px;
+    box-shadow: 0px 2px 0px;
+
+}
+
+
+
+.cosmo1 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.cosmo2 {
+    width: 100px;
+    height: 100px;
+}
+
+.cosmo3 {
+    width: 100px;
+    height: 100px;
+}
+
+.cosmo4 {
+    width: 100px;
+    height: 100px;
+}
+
+.cosmo5 {
+    width: 100px;
+    height: 100px;
+}
+
+.cosmo6 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.cosmo7 {
+    width: 100px;
+    height: 100px;
+}
+
+.cosmo8 {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+.dress1 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.dress2 {
+    width: 100px;
+    height: 100px;
+}
+
+.dress3 {
+    width: 100px;
+    height: 100px;
+}
+
+.dress4 {
+    width: 100px;
+    height: 100px;
+}
+
+.dress5 {
+    width: 100px;
+    height: 100px;
+}
+
+.dress6 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.dress7 {
+    width: 100px;
+    height: 100px;
+}
+
+.dress8 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.jeep {
+    width: 100px;
+    height: 100px;
+
+}
+
+.red-car {
+    width: 100px;
+    height: 100px;
+
+}
+
+.orange-car {
+    width: 100px;
+    height: 100px;
+}
+
+.bike1 {
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.bike2 {
+    width: 100px;
+    height: 100px;
+    
+}
+
+.bike3 {
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+.bike4 {
+    width: 100px;
+    height: 100px;
+    
+}
+
+.bike5 {
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+.footwear1 {
+    width: 100px;
+    height: 100px;
+}
+
+.footwear2 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.footwear3 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.footwear4 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.footwear5 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.footwear6 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.footwear7 {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.footwear8 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.e1 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.e2 {
+    width: 100px;
+    height: 100px;
+}
+
+.e3 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.e4 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.e5 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.e6 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.e7 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.e8 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.hard1 {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.hard2 {
+    width: 100px;
+    height: 100px;
+}
+
+.hard3 {
+    width: 100px;
+    height: 100px;
+}
+
+.hard4 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.hard5 {
+    width: 100px;
+    height: 100px;
+}
+
+.hard6 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.hard7 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.hard8 {
+    width: 100px;
+    height: 100px;
+}
+
+.slider-container{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    
+    
+    
+    
+}
+
+.about-vader {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.para {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+
+.para-container {
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+
+.footer {
+    background-color: black;
+    color: white;
+
+
+}
+
+
+.footer-head {
+    padding-top: 100px;
+    
+}
+
+.container-flex {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 30px;
+    color: white;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+
+    
+    
+
+}
+
+
+.resources {
+    margin-top: 100px;
+    font-weight: lighter;
+
+
+}
+
+
+.revenue {
+    margin-top: 100px;
+    font-weight: lighter;
+
+
+}
+
+
+
+.rewards {
+    margin-top: 100px;
+    font-weight: lighter;
+
+
+}
+
+
+.helpdesk {
+    margin-top: 100px;
+    font-weight: lighter;
+
+
+}
+
+
+.footer-heading {
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+    
+}
+
+
+
+
